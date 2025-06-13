@@ -20,6 +20,6 @@ To create a page that interacts with PokeAPI to display basic Pokemon informatio
 ## dynamic-bottom-padding.js
 
 - On larger screens (> 1200px), I wanted to center the "screen" where the pokemon image shows up to align it with the container with the text info area & search bar.
-  - The issue was that a footer with a dynamic height was added to the continer with the text info & search bar, which offset the container differently that the container with the "screen"/image. So I
+  - The issue was that a footer with a dynamic height was added to the continer with the text info & search bar, which offset the container differently that the container with the "screen"/image.
   - My quick fix solution was to create an empty div to mimic the footer in the "screen"/image container and set the heightusing Javascript to always match the height of the footer.
   - I'm sure there was probably a better/cleaner way to do this.
